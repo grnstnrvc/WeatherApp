@@ -19,17 +19,17 @@ body{
 .wrapper{
   width: 400px;
   background: #fff;
-  border-radius: 7px;
-  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.045);
 }
 .wrapper header{
   display: flex;
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 500;
   color: #43AFFC;
   padding: 16px 15px;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 header i{
   font-size: 0em;
@@ -38,7 +38,7 @@ header i{
 }
 .wrapper.active header i{
   margin-left: 5px;
-  font-size: 30px;
+  font-size: 32px;
 }
 .wrapper .input-part{
   margin: 20px 25px 30px;
@@ -72,12 +72,12 @@ header i{
   border: none;
   outline: none;
   font-size: 18px;
-  border-radius: 7px;
+  border-radius: 8px;
 }
 .input-part input{
   text-align: center;
   padding: 0 15px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
 }
 .input-part input:is(:focus, :valid){
   border: 2px solid #43AFFC;
